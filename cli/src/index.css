@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #01A9A3;
+  --secondary-color: #FFF302;
+
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+body {
+  overflow-x: hidden;
+}
+
