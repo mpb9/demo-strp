@@ -1,11 +1,63 @@
-:root {
-  --primary-color: #01A9A3;
-  --secondary-color: #FFF302;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-body {
-  overflow-x: hidden;
-}
+@layer base {
+  * {
+    padding: 0;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 
+  :root {
+    /* --color-g: '#01A9A3';
+    --color-o: '#e79999';
+    --color-y: '#FFF302';
+    --color-p: '#1a112e'; 
+                #95F265
+                #C74C26 
+                */
+
+    --font-1: fangsong, 'Poppins', sans-serif;
+    font-family: var(--font-1);
+
+    img,
+    picture,
+    video,
+    canvas,
+    svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      overflow-wrap: break-word;
+    }
+  }
+
+  @keyframes to-brat {
+    0% {
+      background-color: #95f26501;
+      color: #95f26501;
+    }
+    55% {
+      color: #95f26501;
+    }
+    56% {
+      color: #000;
+    }
+    100% {
+      background-color: #95f265;
+      color: #000;
+    }
+  }
+}
