@@ -28,13 +28,9 @@ export default function LandingPage({ onEnterStore }) {
           <h1 className='text-7xl lg:text-6xl md:text-5xl mt-[5%] mb-[12%] text-[#fff] cursor-default transition-all font-bold tracking-[.75em] blur-[1px] hover:blur-[7px] hover:scale-95 hover:tracking-[.9em] duration-[5000ms] text-center'>
             COZY THREADS
           </h1>
-          {/* <h1 className='text-7xl lg:text-6xl md:text-5xl mt-[8%] mb-[7%] text-white cursor-default font-bold tracking-[.4em]'>
-            HOPING THIS TRICKS YOUR BRAIN INTO FEELING COLD + YOU BUY OUR SWEATERS
-            HOPING THIS TRICKS YOU INTO FEELING COLD SO YOU'LL BUY OUR SWEATERS
-          </h1> */}
           <div className='flex flex-col justify-center items-center mb-[10%] mt-[5%]'>
             <button
-              className='transition-all bg-[#ffffff] text-[#000000] text-center border-[4px] border-[#000] py-[10px] px-16 rounded-full text-2xl tracking-wider duration-[1000ms] hover:scale-[1.2] hover:bg-[#c3f4aa] focus:scale-[20] focus:bg-[#95f265] focus:text-[#95f265] focus:delay-200 focus:duration-[2800ms] font-black'
+              className='transition-all bg-[#ffffff] text-[#000000] text-center border-[4px] border-[#000] py-[12px] px-16 rounded-full text-2xl tracking-wider duration-[500ms] hover:scale-125 hover:bg-[#c3f4aa] focus:scale-[20] focus:bg-[#95f265] focus:text-[#95f265] focus:delay-200 focus:duration-[2800ms] font-black'
               onClick={handleEnterStore}>
               shop
             </button>
